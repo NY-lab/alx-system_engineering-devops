@@ -1,3 +1,2 @@
 #!/bin/bash
-LIST="$(ls -1)"
-echo "$LIST"
+echo "$("$(ls -1)")"
